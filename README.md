@@ -11,9 +11,8 @@ Supported distributions:
 ## Usage
 
 ```bash
-curl -O https://raw.githubusercontent.com/alexander-potemkin/quick-wireguard-install/master/wireguard-install.sh
-chmod +x wireguard-install.sh
-sudo ./wireguard-install.sh
+curl -O https://raw.githubusercontent.com/alexander-potemkin/quick-wireguard/master/wireguard-install.sh
+chmod +x wireguard-install.sh && sudo ./wireguard-install.sh
 ```
 
-Run the script again to add or remove clients.
+`sudo ./wireguard-install.sh` to add or remove clients, or remove WireGuard from the server.
